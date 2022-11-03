@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, rgb(grey, rgb(255, 255, 255)));
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+    color: white;
+    
+}
+.space-between{
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn_criar a{
+    color: white;
+}
+
+#btn_criar{
+    background-color: white;
+    margin: 0 12px;
+}
+
+#campo_pesquisa {
+    margin: 0 12px;
+}
+#btn_pesquisa {
+    border: none;
+    background-color: rgba(red, green, blue, alpha);
+    color: pink;
+}
+#btn_edit{
+    color: orange;
+}
+#btn_delete{
+    color: red;
+}
+#container_top{
+    margin-top: 12px;
+}
